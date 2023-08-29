@@ -12,21 +12,8 @@ Bu projede, küçük bir film veritabanı içeren bir web uygulamasında çalı�
 
 ## Talimatlar
 
-#### Sil ve Film Ekle eylemlerini bağlama
-
-- [ ] `movieReducers` dosyası içerisinde `deleteMovie` için yazılmış bir kod bloğu olduğunu ve `movieActions` dosyası içerisinde ilgili **action generator**'ın zaten mevcut olduğunu unutmayın.
-
-- **Silme Action'ı: Movie componentinde**
-  - Silme işleminin tetiklemesi gereken HTML öğesini bulun ve `event handler` oluşturup ve bu DOM öğesine bağlayın.
-  - Bu handler içerisinde Filmin `id` değeri ile `deleteMovie` action'ını tetiklemek için `dispatch` edin.
-  - Sonra kullanıcıyı `push('/movies')` komutunu kullanarak filmler sayfasına yönlendirin.
-  - **(Bu kısımda, `useParams` ile aldığınız `id` değerinin `string` olduğunu ve `movieReducer` içerisindeki silme eyleminde buna dikkat etmeniz gerektiğini unutmayın!)**
-
-&nbsp;
-
 - **Film Ekleme Action'ı:**
-  - [ ] movieReducer.js'ye bir `ADD_MOVIE` case'i ekleyin.
-  - [ ] Bu yeni case'in, `payload` aracılığıyla iletilen film datasını `movies` listesine ekleyin.
+
   - [ ] `movieActions.js`'de `addMovie` için bir action generator oluşturun.
   - [ ] Bir filmin eklenmesini tetikleyen componenti bulun ve `addMovie` action'ını bağlayın.
   - [ ] `addMovie`'yi çağırmak için gerekli event handlerı oluşturun ve bağlayın.
