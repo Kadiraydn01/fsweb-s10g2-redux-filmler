@@ -14,7 +14,6 @@ Bu projede, küçük bir film veritabanı içeren bir web uygulamasında çalı�
 
 - **Film Ekleme Action'ı:**
 
-  - [ ] `movieActions.js`'de `addMovie` için bir action generator oluşturun.
   - [ ] Bir filmin eklenmesini tetikleyen componenti bulun ve `addMovie` action'ını bağlayın.
   - [ ] `addMovie`'yi çağırmak için gerekli event handlerı oluşturun ve bağlayın.
   - [ ] Yeni bir film eklerken `id` değeri olarak `Date.now()` kullanın.
