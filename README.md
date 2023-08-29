@@ -12,14 +12,6 @@ Bu projede, küçük bir film veritabanı içeren bir web uygulamasında çalı�
 
 ## Talimatlar
 
-- [ ] **MovieList bileşeni, tüm filmlerimizi ekrana yazdırır.**
-      MovieList component'i içerisindeki `movies` datası redux store'dan çekilmelidir. `react-redux` içerisinden `useSelector` hookunu kullanarak `movies` değerine erişin.
-
-- [ ] **`AppHeader` component'i, başlık metnini görüntülemek için `appTitle` değişkenini kullanır.**  
-       `appTitle` değeri redux store'dan çekilmelidir.
-
-- [ ] Son olarak `Movie` componentindeki `movies` datası yine redux store içerisinden çekilmelidir.
-
 #### Sil ve Film Ekle eylemlerini bağlama
 
 - [ ] `movieReducers` dosyası içerisinde `deleteMovie` için yazılmış bir kod bloğu olduğunu ve `movieActions` dosyası içerisinde ilgili **action generator**'ın zaten mevcut olduğunu unutmayın.
